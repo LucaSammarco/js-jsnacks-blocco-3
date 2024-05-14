@@ -26,10 +26,10 @@ frutta.push("pesca");
 
     for (let index = 0; index < frutta.length; index++) {
         if (frutta[index] === "cocomero") {
-            console.log("yes")
+            console.log("Trovato! Devo solo preparare il concktail!")
 
         } else {
-            console.log("no")
+            
         }
         
     }
