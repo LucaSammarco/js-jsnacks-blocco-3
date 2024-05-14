@@ -14,9 +14,15 @@
 let userNum = Number.parseInt( prompt("Insert number"), 10);
 let userArray = []
 
+    if (userNum < 5) {
+        userNum = (Math.floor(Math.random() * 100 + 1));        
+    }
+
 
     for (let index = 0; index < userNum; index++) {
         userArray.push(Math.floor(Math.random() * 100 + 1))
+
+        
         
        
     }
