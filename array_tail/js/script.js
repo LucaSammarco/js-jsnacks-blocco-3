@@ -21,6 +21,7 @@ let userArray = []
        
     }
 
-let lastfive = userArray[userArray.lenght - 1]
+last = userArray[userArray.length - 1];
 
-    console.log(lastfive)
+
+    console.log(last)
