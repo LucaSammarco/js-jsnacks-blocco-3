@@ -11,6 +11,14 @@ Fasi
    - se c'è stampiamo: "Trovato! Devo solo preparare il cocktail."
    - se non lo trovo: "Oh no, devo uscire a comprare il cocomero!"
 
+    HC
+        *Creare array frutta
+        *Aggiungere pesca
+        *Ciclo per verificare se c'è il cocomero. --> Cercare metodo alternativo ad include
+
+
+
+
 
 2. La coda dell'Array
 Cartella: array_tail
