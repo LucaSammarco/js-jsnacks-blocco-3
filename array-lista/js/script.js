@@ -22,11 +22,12 @@
 const frutta = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino', 'cocomero', 'limone', 'fragola'];
 frutta.push("pesca");
 
-const cocomero = "cocomero"
+
 
     for (let index = 0; index < frutta.length; index++) {
-        if (index === cocomero) {
+        if (frutta[index] === "cocomero") {
             console.log("yes")
+
         } else {
             console.log("no")
         }
