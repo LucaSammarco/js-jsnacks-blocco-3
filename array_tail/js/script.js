@@ -10,8 +10,10 @@
 
 
 let userNum = Number.parseInt( prompt("Insert number"), 10);
+let userArray = []
+
     for (let index = 0; index < userNum; index++) {
-        const element = [3];
+        userArray.push(Math.floor(Math.random()*100 +1))
         
-        console.log(element)
+        console.log(userArray)
     }

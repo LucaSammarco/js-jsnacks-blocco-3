@@ -28,6 +28,7 @@ Stampiamo poi gli ultimi 5 elementi dell'Array
     HC 
         *   Creare prompt per chiedere un numero all'utente
         *   Ciclo per creare numeri casuali (tra 1 e 100) in base al numero scelto dall'utente.
+        *   Trovare metodo per stampare solo gli ultimi 5
 
 3.  (Bonus)
 Cartella: array_bonus
