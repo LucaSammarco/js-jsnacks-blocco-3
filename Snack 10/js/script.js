@@ -8,9 +8,15 @@ let sum = 0
 
 let userNumber = Number.parseInt( prompt("Insert number"), 10);
 
-while (sum > 50) {
+userArray.push(userNumber)
 
-    userArray.push(userNumber);
-    userNumber += sum;
-    
+sum += userNumber
+
+while (sum < 50) {
+    userNumber = Number.parseInt( prompt("Insert number"), 10);
+
+userArray.push(userNumber)
+
+sum += userNumber
 }
+
