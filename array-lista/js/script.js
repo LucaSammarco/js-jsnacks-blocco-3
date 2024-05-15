@@ -21,15 +21,18 @@
 
 const frutta = ['banana', 'mela', 'pera', 'ciliegia', 'arancia', 'mandarino', 'cocomero', 'limone', 'fragola'];
 frutta.push("pesca");
+let trovato = false
 
-
-
-    for (let index = 0; index < frutta.length; index++) {
+    for (let index = 0; index < frutta.length; index++) 
         if (frutta[index] === "cocomero") {
-            console.log("Trovato! Devo solo preparare il concktail!")
+           trovato = true;
 
-        } else {
-            
-        }
+       
         
+    }
+
+    if(trovato) {
+     console.log("Trovato! Devo solo preparare il concktail!")
+    } else {
+        console.log("Oh no, devo uscire a comprare il cocomero!")
     }

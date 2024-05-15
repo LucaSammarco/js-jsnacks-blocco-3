@@ -20,11 +20,8 @@ let userArray = []
 
 
     for (let index = 0; index < userNum; index++) {
-        userArray.push(Math.floor(Math.random() * 100 + 1))
-
-        
-        
-       
+        userArray.push(Math.floor(Math.random() * 100 + 1));
+  
     }
 
 lastFive = userArray.slice(-5);
