@@ -2,11 +2,10 @@
 //  se è dispari inseriscilo nell'array.
 
 
-userArray = [];
+const userArray = [];
 
-let index = userArray.lenght;
 
-while (index > 6) {
+while (userArray.length < 6) {
    
     let userNumber = Number.parseInt( prompt("Insert number"), 10);
     
