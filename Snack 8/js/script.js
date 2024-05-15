@@ -1,27 +1,17 @@
-// Snack8 
-// Crea due tag div con due id diversi. Un div avrà il testo colorato di rosso mentre l'altro di verde. Partendo da un array di numeri, stampiamo nell'id rosso i numeri dispari e in verde i numeri pari.
+// Snack9 Crea un array vuoto. Chiedi fino a che l'array non ha 6 numeri all'utente di inserire un numero,
+//  se è dispari inseriscilo nell'array.
 
 
-const snack8 = document.getElementById('snack8');
-const divPari = document.createElement('div');
-snack8.appendChild(divPari);
-divPari.classList.add("verdi");
+userArray = [];
 
+let index = userArray.lenght;
 
-
-const divDispari = document.createElement('div');
-snack8.appendChild(divDispari);
-divDispari.classList.add("rossi");
-
-const numeri = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 111, 2457];
-
-for (let index = 0; index < numeri.length; index++) {
-    if (numeri[index]  % 2 === 0) {
-        divPari.innerHTML += numeri[index];
-    }
-
-    else {
-        divDispari.innerHTML += numeri[index];
+while (index > 6) {
+   
+    let userNumber = Number.parseInt( prompt("Insert number"), 10);
+    
+    if (userNumber % 2 === 1) {
+        userArray.push(userNumber)
     }
     
 }
