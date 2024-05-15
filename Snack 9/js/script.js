@@ -2,7 +2,7 @@
 // Aggiungi elementi all'array che ha meno elementi fino a quando ne avrà tanti quanti l'altro.
 
 
-const arrayOne = [1, 2, 3, 4, 5,];
+const arrayOne = [1, 2, 3, 4, 5, 5, 3, 85, 4553, 1, 45, 453];
 const arrayTwo = [1, 2, 3, 4, 5, 6, 7];
 
 if (arrayOne.length < arrayTwo.length) {
@@ -21,4 +21,4 @@ if (arrayTwo.length < arrayOne.length) {
 
 
 
-console.log(arrayOne, arrayTwo)
+console.log(arrayOne.length, arrayTwo)
