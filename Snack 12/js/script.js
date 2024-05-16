@@ -13,6 +13,13 @@ function twoWords(firstWord, secondWord) {
     if (firstWord.length === secondWord.length) {
         let sameLenght = firstWord + secondWord
         return sameLenght
+    } else {
+        if (firstWord.length > secondWord.length) {
+            return firstWord
+            
+        }else {
+            return secondWord
+        }
     }
     
 }
