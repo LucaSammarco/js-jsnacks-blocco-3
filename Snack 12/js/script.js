@@ -10,8 +10,9 @@
 
 function twoWords(firstWord, secondWord) {
 
-    if (firstWord.lenght === secondWord.lenght) {
-        
+    if (firstWord.length === secondWord.length) {
+        let sameLenght = firstWord + secondWord
+        return sameLenght
     }
     
 }
