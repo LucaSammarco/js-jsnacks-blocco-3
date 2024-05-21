@@ -11,4 +11,8 @@ function getReverse(numero) {
     return numeroInvertito;
   }
 
+  let numeroUtente = prompt("Inserisci un numero:");
  
+  let numeroInvertito = getReverse(numero);
+
+  console.log(numeroInvertito);
