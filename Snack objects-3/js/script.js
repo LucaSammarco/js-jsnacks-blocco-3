@@ -21,3 +21,7 @@ const persone = [
 let maggiorenni = persone.filter(persona => persona.eta > 18);
 
 console.log(maggiorenni);
+
+maggiorenni.forEach(element => {
+  console.log(element.nome + " " + element.cognome + " " + "puo' guidare")
+});
