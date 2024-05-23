@@ -18,6 +18,6 @@ const persone = [
   { nome: 'Chiara', cognome: 'Rosa', eta: 27 }
 ];
 
-let maggiorenni = persone.filter(age => persone.age > 18);
+let maggiorenni = persone.filter(persona => persona.eta > 18);
 
-console.log(maggiorenni)
+console.log(maggiorenni);
