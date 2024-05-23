@@ -6,15 +6,15 @@
 
 
 const persone = [
-  { nome: 'Luca', cognome: 'Rossi', eta: 30 },
+  { nome: 'Luca', cognome: 'Rossi', eta: 10 },
   { nome: 'Maria', cognome: 'Bianchi', eta: 25 },
   { nome: 'Giovanni', cognome: 'Verdi', eta: 40 },
-  { nome: 'Anna', cognome: 'Neri', eta: 22 },
+  { nome: 'Anna', cognome: 'Neri', eta: 12 },
   { nome: 'Paolo', cognome: 'Gialli', eta: 35 },
   { nome: 'Francesca', cognome: 'Marrone', eta: 28 },
   { nome: 'Stefano', cognome: 'Blu', eta: 45 },
   { nome: 'Elena', cognome: 'Azzurri', eta: 32 },
-  { nome: 'Marco', cognome: 'Viola', eta: 29 },
+  { nome: 'Marco', cognome: 'Viola', eta: 15 },
   { nome: 'Chiara', cognome: 'Rosa', eta: 27 }
 ];
 
